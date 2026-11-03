@@ -1,0 +1,61 @@
+body{
+    background-color: aliceblue;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: black;
+    width: 98vw;
+    height: 95vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+   font-size: 35px;
+   font-weight: 800;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: blue;
+   font-width: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.loginbox{ 
+    background-color: black;
+    align-items: center;
+    
+
+}
+input{
+    width: 28vw;
+    height: 10vh;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+button{
+    width: 28vw;
+    height: 8vh;
+    background-color: rgb(11, 63, 248);
+    color:white;
+    border-radius: 25px;
+    box-shadow: 0,4px, 10px, rgb(4, 96, 233);
+    margin-bottom: 20px;
+}
+a{
+    display: block;
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+button:hover{
+    background-color:darkblue;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: .3s;
+}
+
+

@@ -1,0 +1,107 @@
+
+body{
+    background-color: black;
+}
+    header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0%;
+    color: aliceblue;
+}
+.ph{
+    color: aliceblue;
+}
+.bh{
+    margin-bottom: 0%;
+    font-size: 40px;
+    color: blue;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+}
+img{
+    width: 15vw;
+    height: 25vh;
+    margin:0 auto;
+    display: block;
+    margin-top: 0%;
+}
+.Basic{
+    width:30vw;
+    height: 75vh;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    transform: scale(0.8);
+    border-color: rgba(227, 196, 56, 0.905) ;
+    background-color: white;
+}
+.Basic:hover{
+    transform: scale(1.03);
+    transition: 34ms;
+}
+p{
+    text-align: center;
+    font-weight: 600;
+    color: blue;
+}
+.p1{
+    color: black;
+}
+h2{
+   text-align: center;
+   margin-top: 0%;
+   margin-bottom: 0%;
+
+}
+
+.pro{
+    width: 40vw;
+    height: 75vh;
+    text-align: cente;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 0px;
+    background-color: white;
+    transform: scale(0.9);
+    border-color: rgba(255, 223, 70, 1);
+
+}
+.sp{
+    color: rgb(199, 174, 11);
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pro:hover{
+    transform: scale(1.03);
+    transition: 34ms;
+}
+ol{
+    font-size: 13px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 223, 70, 1);
+    width: 12vw;
+    height: 7vh;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: ;
+    font-weight: 600;
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.2);
+
+}
+button:hover{
+    transform: scale(0.8);
+    transition: 0.12s;
+}
